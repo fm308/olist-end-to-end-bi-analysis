@@ -103,3 +103,25 @@ This section synthesizes the analytical findings from the three dashboards to pr
 - **Data Warehouse:** Snowflake
 - **ETL/Scripting:** SQL (Snowflake Scripting), Stored Procedures
 - **BI Tool:** Power BI
+
+---
+
+## How to Run this Project
+
+To replicate this environment and pipeline, follow these steps:
+
+### 1. Data Lake Setup (AWS)
+*   **S3:** Upload the raw dataset (CSV files) from https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce to an S3 bucket.
+*   **Athena:** Run the SQL scripts 'ddl_bronze.sql' and csv_to_parquet.sql' from the `/bronze/` folder to define raw tables and execute CTAS queries for Parquet conversion.
+
+### 2. Data Warehouse Setup (Snowflake)
+*   **Schema:** Execute the initialization script `01_snowflake_setup.sql` to create databases, schemas, and file formats.
+*   **Stage:** Configure the External Stage using your AWS credentials (IAM role or Access Keys).
+*   **Ingestion:** Run the stored procedure or scripts from `02_snowflake_ingestion.sql` to load data from S3.
+
+### 3. Transformation Layer
+*   **Silver & Gold:** Execute the stored procedures in `03_silver_layer_transformation.sql` and `04_gold_layer_reporting.sql`. This will process the raw data and deploy the final analytical views.
+
+### 4. Visualization (Power BI)
+*   Open the `.pbix` file from the `/dashboard/` folder.
+*   Update the Data Source settings to point to your Snowflake account and the `GOLD` schema.
