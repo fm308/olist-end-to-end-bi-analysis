@@ -63,14 +63,20 @@ The final result is a professional **Executive Dashboard** focused on seller per
 
 ## Dashboard preview (Power BI)
 
-**Brazilian E-Commerce Analysis (3 pages): Executive / Sellers / Operations**
+**Brazilian E-Commerce Analysis: Executive Summary / Sellers & Logistics / Operations**
+
+<!-- 1. Główny Dashboard (Executive Summary) -->
 <p align="center">
-  <img src="[images/image_99a5f8.jpg](https://github.com/user-attachments/assets/b8197ad0-88fd-41e5-9dbd-d5af2a98bccb)" width="100%" alt="Executive Dashboard">
+  <img src="docs/dashboard_1.jpg" width="100%" alt="Executive Dashboard">
 </p>
+
+<!-- 2. Pozostałe dwa dashboardy obok siebie -->
 <p align="center">
-  <img src="[images/image_3bba42.jpg](https://github.com/user-attachments/assets/9fd758bf-57a1-4d38-9232-0d0c7517b26e)" width="49%" alt="Seller Analysis">
-  <img src="[images/image_3bb5ff.png](https://github.com/user-attachments/assets/6c56e458-4aaf-4ba1-9960-e9084e801bd6)" width="49%" alt="Operations Dashboard">
+  <img src="docs/dashboard_2_sellers.jpg" width="49%" alt="Seller & Category Analysis">
+  <img src="docs/dashboard_3_overall.png" width="49%" alt="Operational Efficiency">
 </p>
+
+---
 ## Tech Stack
 - **Cloud Storage:** Amazon S3
 - **Data Lake Engine:** AWS Athena (Presto/Trino)
