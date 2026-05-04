@@ -120,8 +120,8 @@ To replicate this environment and pipeline, follow these steps:
 *   **Ingestion:** Run the stored procedure or scripts from `snowflake_ingestion.sql` to load data from S3.
 
 ### 3. Transformation Layer
-*   **Silver & Gold:** Execute the stored procedures in `03_silver_layer_transformation.sql` and `04_gold_layer_reporting.sql`. This will process the raw data and deploy the final analytical views.
+*   **Silver & Gold:** Execute the stored procedures in `silver_layer_transformation.sql` and `gold_layer_reporting.sql`. This will process the raw data and deploy the final analytical views.
 
 ### 4. Visualization (Power BI)
-*   Open the `.pbix` file from the `/dashboard/` folder.
+*   Open the `.pbix` file from the `/power_bi/` folder.
 *   Update the Data Source settings to point to your Snowflake account and the `GOLD` schema.
