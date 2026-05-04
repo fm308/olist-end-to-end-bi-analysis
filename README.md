@@ -77,6 +77,26 @@ The final result is a professional **Executive Dashboard** focused on seller per
 </p>
 
 ---
+
+## 📈 Key Results & Strategic Recommendations
+
+This section synthesizes the analytical findings from the three dashboards to provide actionable business intelligence.
+
+### **Executive Results**
+*   **Market Concentration:** Revenue and customer base are heavily concentrated in the Southeast, with **Sao Paulo ($2.22M)** and **Rio de Janeiro ($1.16M)** acting as the primary hubs.
+*   **Operational Excellence:** The platform maintains high logistics standards, with **over 90% of orders delivered on time** (106.6K on-time vs. 9.1K delayed).
+*   **Customer Satisfaction:** The ecosystem is healthy, boasting an **Average Review Score of 4.08**, with the majority of sellers maintaining 4 to 5-star ratings.
+*   **Purchase Behavior:** **Credit cards** are the dominant payment method (85K+ users), though the **Average Basket Size remains low at 1.20 items** per order.
+*   **Category Leaders:** **Health & Beauty** and **Watches & Gifts** are the top revenue generators, while **Bed Bath Table** leads in total order volume (11.8K).
+
+### **Strategic Recommendations**
+*   **Increase Average Order Value (AOV):** Implement "Frequently Bought Together" recommendation engines to push the Average Basket Size beyond 1.20 units.
+*   **Geographic Expansion:** Launch targeted marketing and seller recruitment in northern Brazilian states to diversify the revenue stream away from the saturated Southeast.
+*   **Logistics Optimization:** Conduct a root-cause analysis on the **9.1K delayed orders**. If delays are regional, consider onboarding local carriers in those specific zones to maintain the 4.08 satisfaction score.
+*   **Seller Retention:** Reward the **1.1K sellers with perfect 5-star ratings** with "Preferred Partner" status or reduced commission tiers to ensure long-term ecosystem quality.
+
+---
+
 ## Tech Stack
 - **Cloud Storage:** Amazon S3
 - **Data Lake Engine:** AWS Athena (Presto/Trino)
