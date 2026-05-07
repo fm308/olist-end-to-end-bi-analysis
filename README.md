@@ -72,7 +72,7 @@ The final result is a professional **Executive Dashboard** focused on seller per
 
 <!-- 2. Pozostałe dwa dashboardy obok siebie -->
 <p align="center">
-  <img src="docs/dashboard_2_sellers.jpg" width="49%" alt="Seller & Category Analysis">
+  <img src="docs/sellers_dashboard.jpg" width="49%" alt="Seller & Category Analysis">
   <img src="docs/dashboard_3_overall.jpg" width="49%" alt="Operational Efficiency">
 </p>
 
